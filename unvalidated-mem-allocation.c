@@ -1,4 +1,4 @@
-/*#include<stdio.h>
+#include<stdio.h>
 
 char *buffer = NULL;
 
@@ -76,9 +76,9 @@ void allocateBuffer7()
       return;
 	
      buffer = malloc(size7);	// complaint 
-}*/
+}
 
-
+/*
 #include <stdlib.h>
 #include <time.h>
   
@@ -95,4 +95,4 @@ struct tm *make_tm(int year, int mon, int day, int hour,
   };
   return tmb;
 }
-
+*/
