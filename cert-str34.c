@@ -1,6 +1,6 @@
 
 static int yy_string_get() {
-  register char *string;
+  register unsigned char *string;
   register int c;
  
   string = bash_input.location.string;
